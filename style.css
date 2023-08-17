@@ -1,7 +1,7 @@
 :root
 {
     display: flex;
-    
+
 }
 
 body
@@ -12,6 +12,8 @@ body
 #logo-and-title-container
 {
     display: flex;
+    background-color: black;
+    opacity: 20%;
 }
 
 #form-top
@@ -35,6 +37,13 @@ h1 {
 #left
 {
     background-image: url("img/tyrannosaurusRexBackground.jpg");
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#right
+{
 }
 
 #logo
