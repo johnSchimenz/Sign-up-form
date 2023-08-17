@@ -1,3 +1,33 @@
+:root
+{
+    display: flex;
+    
+}
+
+body
+{
+    display: flex;
+}
+
+#logo-and-title-container
+{
+    display: flex;
+}
+
+#form-top
+{
+    display: flex;
+}
+
+#form-middle
+{
+    display: flex;
+}
+
+#form-bottom
+{
+    display: flex;
+}
 h1 {
     font-size: 48px;
 }
