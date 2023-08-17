@@ -11,8 +11,8 @@
 <body>
     <div id="left">
         <div id="logo-and-title-container">
-            <div id="logo"></div>
-            <div id="title"></div>
+            <img id="logo" src="img/odin-lined.png">
+            <div id="title">Title goes here</div>
         </div>
     </div>
     <div id="right">
@@ -22,27 +22,28 @@
                 <fieldset>
                     <legend>Submission Form</legend>
                     <div id="form-top">
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name" placeholder="e.g. Joe">
-                        <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name" placeholder="e.g. Smith">
+                        <label for="first-name">*FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="e.g. Joe" required>
+                        <label for="last-name">*LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="e.g. Smith" required>
                     </div>
                     <div id="form-middle">
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email" placeholder="joesmith@gmail.com">
-                        <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" name="phone-number" id="phone-number" placeholder="###-###-####">
+                        <label for="email">*EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="joesmith@gmail.com" required>
+                        <label for="phone-number">*PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="###-###-####" required>
                     </div>
                     <div id="form-bottom">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password" placeholder="e.g. joesmith@gmail.com">
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm-password" id="confirm-password">
+                        <label for="password">*PASSWORD</label>
+                        <input type="password" name="password" id="password" placeholder="e.g. joesmith@gmail.com" required>
+                        <label for="confirm-password">*CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
                     </div>
                 </fieldset>
                 <div>
                     <button type="submit" id="create-account">Create Account</button>
-                    <p>Already have an account?  Log in</p>     
+                    <p>Already have an account?  Log in</p>
+                    <p>* = Required</p>  
                 </div>           
             </form>
         </div>
