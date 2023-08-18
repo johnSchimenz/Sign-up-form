@@ -15,9 +15,9 @@ body
     background-color: black;
 }
 
-#logo-and-title-container::before
+#title
 {
-
+    color: white;
 }
 
 #form-top
@@ -56,10 +56,10 @@ h1 {
 
 #logo
 {
-
+    max-height: 200px;
 }
 
 #title
 {
-
+    max-height: 200px;
 }
